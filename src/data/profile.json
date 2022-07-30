@@ -6,5 +6,32 @@
     "email": "andres.vasquez1@udea.edu.co",
     "website": "https://avasquezsre.tech",
     "location": "Medellín, Colombia"
-  }
+  },
+  "summary": "SRE con más de 5 años de experiencia en diseño, gestión y administración de infraestructuras Cloud y OnPremise.",
+  "experience": [
+    {
+      "id": 1,
+      "role": "DevOps Engineer",
+      "company": "Holcim American Digital Center",
+      "description": "Diseño,  Implementación, configuración y supervisión de la infraestructura Cloud / On-Premise, flujo CI/CD.",
+      "start": "07/2022",
+      "end": ""
+    },
+    {
+      "id": 2,
+      "role": "Site reliability engineering",
+      "company": "UdeA - Facultad de ingeniería",
+      "description": "Diseño,  Implementación, configuración y supervisión de la infraestructura Cloud / On-Premise, flujo CI/CD Facultad de Ingeniería de la Universidad de Antioquia.",
+      "start": "10/2019",
+      "end": ""
+    },
+    {
+      "id": 3,
+      "role": "Desarrollador PHP",
+      "company": "Freelancer",
+      "description": "Programador PHP con más de cinco años de experiencia en integraciones de pasarelas de pagos para plugin comerciales y Open Source.",
+      "start": "10/2019",
+      "end": ""
+    }
+    ]
 }
