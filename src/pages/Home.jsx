@@ -2,6 +2,7 @@ import React from 'react';
 import resume from 'data/profile.json';
 import Header from 'components/organisms/Header';
 import Summary from 'components/organisms/Summary';
+import Experience from 'components/organisms/Experience';
 
 export default function Home() {
   return (
@@ -13,6 +14,11 @@ export default function Home() {
           role={resume.role}
         />
         <Summary data={resume.summary} />
+        <div className='border-b border-neutral-300 pb-2 my-5 lg:flex'>
+          <div className='lg:w-2/3 lg:pr-8'>
+            {resume.experience && <Experience data={resume.experience} />}
+          </div>
+        </div>
       </div>
     </main>
   );
