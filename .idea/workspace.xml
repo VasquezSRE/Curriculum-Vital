@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="268ad0b6-93c0-4bcb-8a99-5e1f407c3575" name="Changes" comment="refactor: Add Header component in App and refactor structure">
       <change beforePath="$PROJECT_DIR$/.github/workflows/node.js.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/node.js.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +89,7 @@
       <workItem from="1658721701533" duration="310000" />
       <workItem from="1658724874521" duration="1738000" />
       <workItem from="1659128712286" duration="8851000" />
-      <workItem from="1659190673523" duration="1870000" />
+      <workItem from="1659190673523" duration="1987000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Create contact component">
       <created>1659154530073</created>
