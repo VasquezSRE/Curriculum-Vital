@@ -9,7 +9,7 @@ export default function Home() {
       <div className='container mx-auto shadow bg-white py-5 px-10'>
         <Header
           contacts={resume.contact}
-          name={resume.fullname}
+          name={resume.fullName}
           role={resume.role}
         />
         <Summary data={resume.summary} />
