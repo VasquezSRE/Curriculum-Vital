@@ -4,25 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="268ad0b6-93c0-4bcb-8a99-5e1f407c3575" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/globe.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/linkedin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/location.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/mail.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/mobile.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/whatsapp.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/molecules/Contact.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/organisms/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/profile.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Home.jsx" afterDir="false" />
+    <list default="true" id="268ad0b6-93c0-4bcb-8a99-5e1f407c3575" name="Changes" comment="refactor: Add Header component in App and refactor structure">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/node.js.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/node.js.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/layout.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/Home.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,8 +89,38 @@
       <workItem from="1658713919482" duration="5870000" />
       <workItem from="1658721701533" duration="310000" />
       <workItem from="1658724874521" duration="1738000" />
-      <workItem from="1659128712286" duration="5222000" />
+      <workItem from="1659128712286" duration="8851000" />
+      <workItem from="1659190673523" duration="898000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: Create contact component">
+      <created>1659154530073</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659154530073</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ci: Install preprocessor SASS">
+      <created>1659154571286</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659154571286</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: Create Header component">
+      <created>1659154598028</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659154598028</updated>
+    </task>
+    <task id="LOCAL-00004" summary="refactor: Add Header component in App and refactor structure">
+      <created>1659154629120</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1659154629120</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +137,13 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: Create contact component" />
+    <MESSAGE value="ci: Install preprocessor SASS" />
+    <MESSAGE value="feat: Create Header component" />
+    <MESSAGE value="refactor: Add Header component in App and refactor structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: Add Header component in App and refactor structure" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
