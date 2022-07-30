@@ -1,6 +1,7 @@
 import React from 'react';
 import resume from 'data/profile.json';
 import Header from 'components/organisms/Header';
+import Summary from 'components/organisms/Summary';
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
           name={resume.fullname}
           role={resume.role}
         />
+        <Summary data={resume.summary} />
       </div>
     </main>
   );
