@@ -11,7 +11,7 @@ jobs:
       BUCKET: vasquezsre.tech
       DIST: build
       REGION: us-east-1
-      DISTRIBUTION_ID: E1MW6RMLXMDN0B
+      DISTRIBUTION_ID: E3SJ5OVUV76E82
 
     steps:
       - name: Checkout
@@ -24,9 +24,9 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: ${{ env.REGION }}
 
-      # - uses: actions/setup-node@v2
-      #   with:
-      #     node-version: '14'
+       - uses: actions/setup-node@v2
+         with:
+           node-version: '16'
 
       - name: Install Dependencies
         run: |
