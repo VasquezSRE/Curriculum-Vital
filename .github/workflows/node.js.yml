@@ -8,14 +8,12 @@ jobs:
     name: Build and Deploy
     runs-on: ubuntu-latest
     env:
-      BUCKET: vasquezsre.tech
-      DIST: build
-      REGION: us-east-1
-      DISTRIBUTION_ID: E3SJ5OVUV76E82
+      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name : Using Node.Js 16
         uses: actions/setup-node@v2
         with:
@@ -37,11 +35,15 @@ jobs:
       - name: Build Static Website
         run: npm run build --if-present
 
-      - name: Copy files to the production website with the AWS CLI
-        run: |
-          aws s3 sync --delete ${{ env.DISTRIBUTION_ID }} s3://${{ env.BUCKET }}
-
-      - name: Copy files to the production website with the AWS CLI
-        run: |
-          aws cloudfront create-invalidation \
-            --distribution-id ${{ env.DISTRIBUTION_ID }} \
+      - name: Deploy
+        uses: reggionick/s3-deploy@v3
+        with:
+          folder: build
+          bucket: ${{ secrets.S3_BUCKET }}
+          bucket-region: ${{ secrets.S3_BUCKET_REGION }}
+          dist-id: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }}
+          invalidation: /
+          delete-removed: true
+          no-cache: true
+          private: true
+          filesToInclude: ".*/*,*/*,**"
