@@ -2,39 +2,45 @@ name: Deploy to S3
 
 on:
   push:
-    branches:
-      - main
+    branches: [ master ]
 jobs:
-  build:
+  build-and-deploy:
+    name: Build and Deploy
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    env:
+      BUCKET: vasquezsre.tech
+      DIST: build
+      REGION: us-east-1
+      DISTRIBUTION_ID: E1MW6RMLXMDN0B
+
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
-        with:
-          node-version: 14
-      - name: Caching Gatsby
-        id: gatsby-cache-build
-        uses: actions/cache@v2
-        with:
-          path: |
-            public
-            .cache
-            node_modules
-          key: ${{ runner.os }}-gatsby-alexhyett-site-build-${{ github.run_id }}
-          restore-keys: |
-            ${{ runner.os }}-gatsby-alexhyett-site-build-
-      - name: Install dependencies
-        run: yarn install
-      - name: Run Lint
-        run: yarn run lint
-      - name: Build
-        run: yarn run build
-      - name: Set AWS credentials
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region: us-east-1
-      - name: Deploy to S3
-        run: yarn run deploy
+          aws-region: ${{ env.REGION }}
+
+      # - uses: actions/setup-node@v2
+      #   with:
+      #     node-version: '14'
+
+      - name: Install Dependencies
+        run: |
+          node --version
+          npm ci --production
+
+      - name: Build Static Website
+        run: npm run build
+
+      - name: Copy files to the production website with the AWS CLI
+        run: |
+          aws s3 sync --delete ${{ env.DIST }} s3://${{ env.BUCKET }}
+
+      - name: Copy files to the production website with the AWS CLI
+        run: |
+          aws cloudfront create-invalidation \
+            --distribution-id ${{ env.DISTRIBUTION_ID }} \
