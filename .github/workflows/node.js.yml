@@ -29,9 +29,7 @@ jobs:
           aws-region: ${{ env.REGION }}
 
       - name: Install Dependencies
-        run: |
-          node --version
-          npm install
+        run: npm install
 
       - name: Run Lint
         run: npm run lint
