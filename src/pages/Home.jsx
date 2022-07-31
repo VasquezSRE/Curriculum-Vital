@@ -1,28 +1,43 @@
 import React from 'react';
-import resume from 'data/profile.json';
-import Header from 'components/organisms/Header';
-import Summary from 'components/organisms/Summary';
-import Experience from 'components/organisms/Experience';
-import Projects from 'components/organisms/Project';
-import Skills from 'components/organisms/Skills';
+// import resume from 'data/profile.json';
+// import Header from 'components/organisms/Header';
+// import Summary from 'components/organisms/Summary';
+// import Experience from 'components/organisms/Experience';
+// import Projects from 'components/organisms/Project';
+// import Skills from 'components/organisms/Skills';
+import profile from 'assets/images/profile.jpg';
 
 export default function Home() {
   return (
-    <main className='antialiased text-neutral-900 bg-neutral-100 min-h-screen sm:p-5'>
-      <div className='container mx-auto shadow bg-white py-5 px-10'>
-        <Header
-          contacts={resume.contact}
-          name={resume.fullName}
-          role={resume.role}
-        />
-        <Summary data={resume.summary} />
-        <div className='border-b border-neutral-300 pb-2 my-5 lg:flex'>
-          <div className='lg:w-2/3 lg:pr-8'>
-            {resume.experience && <Experience data={resume.experience} />}
-            {resume.projects && <Projects data={resume.projects} />}
+    <main>
+      <div className='art-info-bar'>
+        <div className='art-info-bar-frame'>
+          <div className='art-header'>
+            <div className='art-avatar'>
+              <a className='art-avatar-curtain'>
+                <img
+                  className='rounded-full mx-auto w-32 xl:w-64'
+                  src={profile}
+                  alt='profile'
+                />
+              </a>
+              <div className='art-lamp-light'>
+                <div className='art-available-lamp' />
+              </div>
+            </div>
+            <h5 className='art-name mb-10'>
+              <a href='home.html'>Artur Carter</a>
+            </h5>
+            <div className='art-sm-text'>
+              Front-end Deweloper Ui/UX Designer
+            </div>
           </div>
-          <div className='lg:w-1/3 lg:pl-8 lg:border-l lg:border-neutral-300 '>
-            {resume.skills && <Skills data={resume.skills} />}
+        </div>
+      </div>
+      <div className='art-content'>
+        <div className='art-curtain'>
+          <div className='art-top-bg'>
+            <div className='art-top-bg-overlay' />
           </div>
         </div>
       </div>

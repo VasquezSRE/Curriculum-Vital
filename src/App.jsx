@@ -1,10 +1,13 @@
 import 'assets/styles/layout.scss';
 import Home from 'pages/Home';
+import Layout from 'layouts/Layout';
 
 function App() {
   return (
     <div className='App'>
-      <Home />
+      <Layout>
+        <Home />
+      </Layout>
     </div>
   );
 }
