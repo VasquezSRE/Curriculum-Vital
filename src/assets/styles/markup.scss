@@ -66,7 +66,7 @@ app marcup
 /* ----- scroll frame ----- */
 .art-scroll-frame {
   width: 100%;
-  height: calc(100vh - 30px);
+  height: calc(100vh - 10px);
 }
 
 .scrollbar-track {
@@ -160,7 +160,7 @@ app marcup
 
           & .art-scroll-frame {
             & .scroll-content {
-              padding: 240px 0 50px;
+              padding: 300px 0 50px;
             }
           }
         }
