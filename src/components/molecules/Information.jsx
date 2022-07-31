@@ -14,7 +14,7 @@ const Information = ({ data }) => (
       </li>
       <li>
         <h6>GitHub:</h6>
-        <span>{data.email}</span>
+        <span>{data.github}</span>
       </li>
     </ul>
   </div>

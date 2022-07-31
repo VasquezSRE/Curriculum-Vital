@@ -22,5 +22,19 @@
       "title": "Alemán",
       "value": "20"
     }
+  ],
+  "skills": [
+    {
+      "title": "Administrador de servidores Linux"
+    },
+    {
+      "title": "Infraestructura Cloud"
+    },
+    {
+      "title": "CI/CD"
+    },
+    {
+      "title": "Contenedores"
+    }
   ]
 }

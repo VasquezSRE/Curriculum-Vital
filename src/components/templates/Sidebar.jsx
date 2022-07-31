@@ -2,6 +2,8 @@ import React from 'react';
 import Avatar from 'components/molecules/Avatar';
 import Information from 'components/molecules/Information';
 import Idioms from 'components/molecules/Idioms';
+import Skills from 'components/molecules/Skills';
+import Button from 'components/atoms/button';
 import resumen from 'data/sidebar.json';
 
 const Sidebar = () => (
@@ -19,28 +21,11 @@ const Sidebar = () => (
           <div className='art-ls-divider' />
           <Idioms data={resumen.idioms} />
           <div className='art-ls-divider' />
-
-          <ul className='art-knowledge-list p-15-0'>
-            <li>Bootstrap, Materialize</li>
-
-            <li>Stylus, Sass, Less</li>
-
-            <li>Gulp, Webpack, Grunt</li>
-
-            <li>GIT knowledge</li>
-          </ul>
-
+          <Skills data={resumen.skills} />
           <div className='art-ls-divider' />
 
           <div className='art-links-frame p-15-15'>
-            <a
-              href='files/cv.txt'
-              className='art-link'
-              download=''
-              data-no-swup=''
-            >
-              Download cv <i className='fas fa-download' />
-            </a>
+            <Button text='Descargar' />
           </div>
         </div>
       </div>
