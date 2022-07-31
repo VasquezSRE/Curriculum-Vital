@@ -10,3 +10,8 @@
 @import 'content';
 @import 'burger';
 @import 'transitions';
+
+
+.will-change-transform {
+  will-change: transform;
+}
