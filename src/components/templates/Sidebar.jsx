@@ -1,5 +1,6 @@
 import React from 'react';
-import avatar from 'assets/images/avatar.jpg';
+import Avatar from 'components/molecules/Avatar';
+import resumen from 'data/sidebar.json';
 
 const Sidebar = () => (
   <div className='art-info-bar'>
@@ -9,21 +10,7 @@ const Sidebar = () => (
           <i className='fas fa-ellipsis-v' />
         </div>
       </div>
-      <div className='art-header'>
-        <div className='art-avatar'>
-          <img className='art-avatar-curtain' src={avatar} alt='Avatar' />
-          <div className='art-lamp-light'>
-            <div className='art-available-lamp' />
-          </div>
-        </div>
-        <h5 className='art-name mb-10'>
-          <a href='home.html'>Andrés Felipe Vásquez Ramírez</a>
-        </h5>
-        <div className='art-sm-text'>
-          SRE con más de 5 años de experiencia en diseño, gestión y
-          administración de infraestructuras Cloud y OnPremise.
-        </div>
-      </div>
+      <Avatar data={resumen.avatar} />
       <div
         id='scrollbar2'
         className='art-scroll-frame'
