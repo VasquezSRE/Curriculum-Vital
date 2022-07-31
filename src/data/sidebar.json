@@ -2,5 +2,25 @@
   "avatar": {
     "fullName": "Andrés Felipe Vásquez Ramírez",
     "summary": "SRE con más de 5 años de experiencia en diseño, gestión y administración de infraestructuras Cloud y OnPremise."
-  }
+  },
+  "information": {
+    "phone": "+57 3195344066",
+    "github": "vasquezsre",
+    "website": "avasquezsre.tech",
+    "location": "Medellín, Colombia"
+  },
+  "idioms": [
+    {
+      "title": "Español",
+      "value": "100"
+    },
+    {
+      "title": "Inglés",
+      "value": "60"
+    },
+    {
+      "title": "Alemán",
+      "value": "20"
+    }
+  ]
 }
