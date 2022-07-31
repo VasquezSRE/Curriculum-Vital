@@ -3,6 +3,7 @@ import resume from 'data/profile.json';
 import Header from 'components/organisms/Header';
 import Summary from 'components/organisms/Summary';
 import Experience from 'components/organisms/Experience';
+import Projects from 'components/organisms/Project';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <div className='border-b border-neutral-300 pb-2 my-5 lg:flex'>
           <div className='lg:w-2/3 lg:pr-8'>
             {resume.experience && <Experience data={resume.experience} />}
+            {resume.projects && <Projects data={resume.projects} />}
           </div>
         </div>
       </div>

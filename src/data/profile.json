@@ -33,5 +33,13 @@
       "start": "10/2019",
       "end": ""
     }
-    ]
+    ],
+  "projects": [
+    {
+      "name": "Implementación de Clúster K8s",
+      "company": "UdeA - Facultad de ingeniería",
+      "description": "Diseño e implemntación de un clúter de kubernetes, aprovechando los recursos de físicos del datacenter",
+      "link": ""
+    }
+  ]
 }
