@@ -1,0 +1,20 @@
+{
+"counters": [
+  {
+    "counter": "10",
+    "title": "Años de Experiencia"
+  },
+  {
+    "counter": "50",
+    "title": "Cluster desplegados"
+  },
+  {
+    "counter": "1K",
+    "title": "Pipelines exitosos"
+  },
+  {
+    "counter": "1K",
+    "title": "Lineas de Código IaC"
+  }
+]
+}
