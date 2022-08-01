@@ -8,13 +8,13 @@ import home from 'data/home.json';
 
 function Home() {
   return (
-    <main>
+    <div className=''>
       <Slider />
       <Counters data={home} />
       <Experience data={home} />
       <Hobbies data={home} />
       <Certifications data={home} />
-    </main>
+    </div>
   );
 }
 

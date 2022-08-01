@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Idioms = ({ data }) => (
-  <div className='art-lang-skills p-30-15'>
+  <div className='art-lang-skills pt-7 pb-5'>
     {data.map(({ title, value }) => (
       <div key={title} className='art-lang-skills-item'>
         <div

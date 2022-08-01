@@ -18,8 +18,8 @@ const Experience = ({ data }) => (
           >
             <div className='art-a art-service-icon-box'>
               <div className='art-service-ib-content'>
-                <h5 className='mb-15'>{item.role}</h5>
-                <div className='mb-15'>{item.description}</div>
+                <h5 className='mb-4'>{item.role}</h5>
+                <div className='mb-4'>{item.description}</div>
                 <div className='art-buttons-frame'>
                   <a
                     href='contact.html'
