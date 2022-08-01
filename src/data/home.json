@@ -42,5 +42,19 @@
       "start": "10/2019",
       "end": ""
     }
+  ],
+  "certifications": [
+    {
+      "image": "cloud_practitioner"
+    },
+    {
+      "image": "business_accredited"
+    },
+    {
+      "image": "technical_accredited"
+    },
+    {
+      "image": "cloud_economic_accredited"
+    }
   ]
 }
