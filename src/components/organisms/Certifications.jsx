@@ -3,7 +3,7 @@ import certifications from 'components/atoms/certifications';
 
 const Certifications = ({ data }) => (
   <div className='mx-auto sm:px-4 max-w-full mx-auto sm:px-4'>
-    <div className='flex flex-wrap'>
+    <div className='grid gap-4 md:grid-cols-2 lg:grid-cols-4'>
       <div className='lg:w-full pr-4 pl-4'>
         <div className='art-section-title'>
           <div className='art-title-frame'>
@@ -11,8 +11,10 @@ const Certifications = ({ data }) => (
           </div>
         </div>
       </div>
+    </div>
+    <div className='grid gap-4 md:grid-cols-2 lg:grid-cols-4'>
       {data.certifications.map(({ image }) => (
-        <div key={image} className='w-1/2 lg:w-1/4 pr-4 pl-4'>
+        <div key={image} className='flex flex-col'>
           <img className='art-brand' src={certifications[image]} alt='brand' />
         </div>
       ))}
