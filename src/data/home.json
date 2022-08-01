@@ -56,5 +56,22 @@
     {
       "image": "cloud_economic_accredited"
     }
+  ],
+  "hobbies": [
+    {
+      "title": "Rugby subacuático",
+      "description": "Soy parte del equipo representativo de la Universidad de Antioquia.",
+      "image": "uwr"
+    },
+    {
+      "title": "Senderismo",
+      "description": "Uno de mis pasatiempos para conocer nuevos pueblitos.",
+      "image": "trekking"
+    },
+    {
+      "title": "Tenis de mesa",
+      "description": "Yo practico de forma Amateur el deporte en la UdeA",
+      "image": "pingpong"
+    }
   ]
 }
