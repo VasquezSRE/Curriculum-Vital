@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import Avatar from 'components/molecules/Avatar';
 import Information from 'components/molecules/Information';
 import Idioms from 'components/molecules/Idioms';
@@ -7,7 +7,6 @@ import SocialNetworks from 'components/molecules/SocialNetworks';
 import Button from 'components/atoms/button';
 import { ReactComponent as MenuIcon } from 'assets/icons/ellipsis-v-solid.svg';
 import resumen from 'data/sidebar.json';
-import { Scrollbar } from 'smooth-scrollbar-react';
 
 function Sidebar() {
   return (
@@ -25,27 +24,18 @@ function Sidebar() {
             display: 'flex',
           }}
         >
-          <Scrollbar
-            ref={useRef}
-            plugins={{
-              overscroll: {
-                effect: 'bounce',
-              },
-            }}
-          >
-            <div className='scroll-content'>
-              <Information data={resumen.information} />
-              <div className='art-ls-divider' />
-              <Idioms data={resumen.idioms} />
-              <div className='art-ls-divider' />
-              <Skills data={resumen.skills} />
-              <div className='art-ls-divider' />
+          <div className='mt-72'>
+            <Information data={resumen.information} />
+            <div className='art-ls-divider' />
+            <Idioms data={resumen.idioms} />
+            <div className='art-ls-divider' />
+            <Skills data={resumen.skills} />
+            <div className='art-ls-divider' />
 
-              <div className='art-links-frame pt-5 pb-5'>
-                <Button text='Descargar CV' />
-              </div>
+            <div className='art-links-frame pt-5 pb-5'>
+              <Button text='Descargar CV' />
             </div>
-          </Scrollbar>
+          </div>
         </div>
         <SocialNetworks data={resumen.socials} />
       </div>
