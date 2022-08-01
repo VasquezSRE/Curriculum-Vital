@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="268ad0b6-93c0-4bcb-8a99-5e1f407c3575" name="Changes" comment="fix: Add title component certifications">
-      <change afterPath="$PROJECT_DIR$/src/components/organisms/Footer.jsx" afterDir="false" />
+    <list default="true" id="268ad0b6-93c0-4bcb-8a99-5e1f407c3575" name="Changes" comment="fix: Grid certifications">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/molecules/Counters.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/Counters.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/organisms/Certifications.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/Certifications.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/organisms/Experience.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/Experience.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/organisms/Hobbies.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/Hobbies.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/organisms/Slider.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/Slider.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/home.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/home.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,7 +222,35 @@
       <option name="project" value="LOCAL" />
       <updated>1659355890473</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="feat: Add new experiences">
+      <created>1659356931705</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1659356931705</updated>
+    </task>
+    <task id="LOCAL-00019" summary="feat: Create Footer Component">
+      <created>1659356946869</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1659356946869</updated>
+    </task>
+    <task id="LOCAL-00020" summary="fix: CFix minnors">
+      <created>1659356958901</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1659356958901</updated>
+    </task>
+    <task id="LOCAL-00021" summary="fix: Grid certifications">
+      <created>1659358466616</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1659358466616</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,7 +287,11 @@
     <MESSAGE value="refactor: Clear comments" />
     <MESSAGE value="fix: fixed scroll" />
     <MESSAGE value="fix: Add title component certifications" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: Add title component certifications" />
+    <MESSAGE value="feat: Add new experiences" />
+    <MESSAGE value="feat: Create Footer Component" />
+    <MESSAGE value="fix: CFix minnors" />
+    <MESSAGE value="fix: Grid certifications" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: Grid certifications" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

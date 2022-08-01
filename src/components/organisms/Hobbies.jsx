@@ -2,7 +2,7 @@ import React from 'react';
 import hobbies from 'components/atoms/hobbies';
 
 const Hobbies = ({ data }) => (
-  <div className='mx-auto sm:px-4 max-w-full mx-auto sm:px-4 mb-5'>
+  <div className='container mx-auto sm:px-4 max-w-full mx-auto sm:px-4 mb-6'>
     <div className='flex flex-wrap '>
       <div className='lg:w-full pr-4 pl-4'>
         <div className='art-section-title'>
@@ -11,9 +11,9 @@ const Hobbies = ({ data }) => (
           </div>
         </div>
       </div>
-      <div className='flex flex-row lg:w-full pr-4 pl-4'>
+      <div className='grid gap-3 md:grid-cols-2 lg:grid-cols-3'>
         {data.hobbies.map(({ title, description, image }) => (
-          <div key={title} className='lg:w-1/2 pr-4 pl-4 md:w-1/2 pr-4 pl-4'>
+          <div key={title} className='flex flex-col gap-1 px-4'>
             <div className='art-a art-testimonial'>
               <div className='testimonial-body'>
                 <img
