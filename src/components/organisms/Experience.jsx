@@ -10,6 +10,8 @@ const Experience = ({ data }) => (
           </div>
         </div>
       </div>
+    </div>
+    <div className='flex flex-wrap '>
       {data &&
         data.experience.map((item) => (
           <div

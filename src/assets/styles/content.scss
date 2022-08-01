@@ -1025,7 +1025,7 @@ content (after 1200px)
   .art-banner {
     & .art-banner-overlay {
       & .art-banner-photo {
-        display: none;
+        right: -230px;
       }
     }
   }
@@ -1157,6 +1157,14 @@ content (after 500px)
 
 ------------------------------ */
 @media (max-width: 500px) {
+  .art-banner {
+    & .art-banner-overlay {
+      & .art-banner-photo {
+        display: none;
+      }
+    }
+  }
+
   .art-section-title {
     flex-direction: column;
 
