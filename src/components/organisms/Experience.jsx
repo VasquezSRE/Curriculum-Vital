@@ -1,19 +1,36 @@
 import React from 'react';
 
 const Experience = ({ data }) => (
-  <section>
-    <h1 className='section-header'>Experience</h1>
-    {data &&
-      data.map((item) => (
-        <article className='my-5' key={`${item.company.id}`}>
-          <h2 className='item-header'>{item.role}</h2>
-          <h3 className='item-sub'>
-            {item.company} | {item.start} - {item.end || 'PRESENT'}
-          </h3>
-          <p className='py-6'>{item.description}</p>
-        </article>
-      ))}
-  </section>
+  <div className='container mx-auto sm:px-4 max-w-full mx-auto sm:px-4'>
+    <div className='flex flex-wrap '>
+      <div className='lg:w-full pr-4 pl-4'>
+        <div className='art-section-title'>
+          <div className='art-title-frame'>
+            <h4>Mi Experiencia</h4>
+          </div>
+        </div>
+      </div>
+      {data &&
+        data.experience.map((item) => (
+          <div className='lg:w-1/3 pr-4 pl-4 md:w-1/2 pr-4 pl-4'>
+            <div className='art-a art-service-icon-box'>
+              <div className='art-service-ib-content'>
+                <h5 className='mb-15'>{item.role}</h5>
+                <div className='mb-15'>{item.description}</div>
+                <div className='art-buttons-frame'>
+                  <a
+                    href='contact.html'
+                    className='art-link art-color-link art-w-chevron'
+                  >
+                    {item.company} | {item.start} - {item.end || 'Presente'}
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        ))}
+    </div>
+  </div>
 );
 
 export default Experience;

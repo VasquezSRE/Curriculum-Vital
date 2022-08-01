@@ -1,0 +1,60 @@
+{
+  "counters": [
+  {
+    "counter": "10",
+    "title": "Años de Experiencia"
+  },
+  {
+    "counter": "50",
+    "title": "Cluster desplegados"
+  },
+  {
+    "counter": "1K",
+    "title": "Pipelines exitosos"
+  },
+  {
+    "counter": "1K",
+    "title": "Lineas de Código IaC"
+  }
+],
+  "experience": [
+    {
+      "id": 1,
+      "role": "Ingeniero DevOps",
+      "company": "Holcim American Digital Center",
+      "description": "Diseño, implementación y configuración de pipelines de Ci/CD y mejora de los procesos de CI/CD.",
+      "start": "07/2022",
+      "end": ""
+    },
+    {
+      "id": 2,
+      "role": "Site reliability engineering",
+      "company": "UdeA - Facultad de ingeniería",
+      "description": "Diseño, implementación, configuración y supervisión de la infraestructura Cloud / On-Premise con flujo CI/CD.",
+      "start": "10/2019",
+      "end": ""
+    },
+    {
+      "id": 3,
+      "role": "Desarrollador PHP",
+      "company": "Freelancer",
+      "description": "Programador PHP con más de cinco años de experiencia en integraciones de pasarelas comerciales y Open Source.",
+      "start": "10/2019",
+      "end": ""
+    }
+  ],
+  "certifications": [
+    {
+      "image": "cloud_practitioner"
+    },
+    {
+      "image": "business_accredited"
+    },
+    {
+      "image": "technical_accredited"
+    },
+    {
+      "image": "cloud_economic_accredited"
+    }
+  ]
+}
