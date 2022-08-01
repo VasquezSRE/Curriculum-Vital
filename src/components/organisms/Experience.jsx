@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Experience = ({ data }) => (
-  <div className='container mx-auto sm:px-4 max-w-full mx-auto sm:px-4'>
+  <div className='mx-auto sm:px-4 max-w-full mx-auto sm:px-4'>
     <div className='flex flex-wrap '>
       <div className='lg:w-full pr-4 pl-4'>
         <div className='art-section-title'>

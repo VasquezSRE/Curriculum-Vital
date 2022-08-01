@@ -2,8 +2,8 @@ import React from 'react';
 import certifications from 'components/atoms/certifications';
 
 const Certifications = ({ data }) => (
-  <div className='container mx-auto sm:px-4 max-w-full mx-auto sm:px-4'>
-    <div className='flex flex-wrap '>
+  <div className='mx-auto sm:px-4 max-w-full mx-auto sm:px-4'>
+    <div className='flex flex-wrap'>
       <div className='lg:w-full pr-4 pl-4'>
         <div className='art-section-title'>
           <div className='art-title-frame'>

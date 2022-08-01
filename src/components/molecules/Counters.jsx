@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Counters = ({ data }) => (
-  <div className='container mx-auto sm:px-4 max-w-full mx-auto sm:px-4'>
+  <div className='mx-auto sm:px-4 max-w-full mx-auto sm:px-4'>
     <div className='flex flex-wrap  pt-8'>
       {data.counters.map(({ title, counter }) => (
         <div key={title} className='md:w-1/4 pr-4 pl-4 w-1/2'>
