@@ -36,6 +36,14 @@
     },
     {
       "id": 3,
+      "role": "Ingeniero DevOps",
+      "company": "Innclod S.A.S.",
+      "description": "Administrador infraestructura cloud de la compañía, para clientes como ARL Seguros Bolivar, Sigover, Terminal de Transporte de Bogotá..",
+      "start": "10/2019",
+      "end": ""
+    },
+    {
+      "id": 4,
       "role": "Desarrollador PHP",
       "company": "Freelancer",
       "description": "Programador PHP con más de cinco años de experiencia en integraciones de pasarelas comerciales y Open Source.",
