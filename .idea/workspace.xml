@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="268ad0b6-93c0-4bcb-8a99-5e1f407c3575" name="Changes" comment="feat: Create component experiences">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/certifications/aws-certified-cloud-practitioner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/certifications/aws-partner-accreditation-business.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/certifications/aws-partner-accreditation-technical.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/certifications/aws-partner-cloud-economics-accreditation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/atoms/certifications.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/organisms/Certifications.jsx" afterDir="false" />
+    <list default="true" id="268ad0b6-93c0-4bcb-8a99-5e1f407c3575" name="Changes" comment="feat: Create atomic component for hobbies">
+      <change afterPath="$PROJECT_DIR$/src/components/organisms/Hobbies.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/content.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/atoms/hobbies.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/hobbies.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/home.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/home.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.jsx" afterDir="false" />
     </list>
@@ -46,7 +43,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="format.on.save" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/images/certifications" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/organisms" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -61,11 +58,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/organisms" />
+      <recent name="$PROJECT_DIR$/src/components/atoms" />
       <recent name="$PROJECT_DIR$/src/assets/images/certifications" />
       <recent name="$PROJECT_DIR$/src/assets/icons" />
       <recent name="$PROJECT_DIR$/src/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/images/hobbies" />
       <recent name="$PROJECT_DIR$/src/pages" />
       <recent name="$PROJECT_DIR$/src/assets/styles" />
     </key>
@@ -99,7 +99,7 @@
       <workItem from="1658724874521" duration="1738000" />
       <workItem from="1659128712286" duration="8851000" />
       <workItem from="1659190673523" duration="3857000" />
-      <workItem from="1659313163821" duration="2711000" />
+      <workItem from="1659313163821" duration="5157000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Create contact component">
       <created>1659154530073</created>
@@ -150,7 +150,42 @@
       <option name="project" value="LOCAL" />
       <updated>1659314787210</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat: Create component atomic certifications">
+      <created>1659316017512</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1659316017512</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: Create component certifications">
+      <created>1659316025082</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1659316025082</updated>
+    </task>
+    <task id="LOCAL-00010" summary="styles: Hobbies images">
+      <created>1659316571938</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1659316571938</updated>
+    </task>
+    <task id="LOCAL-00011" summary="styles: Change images the directory">
+      <created>1659316644613</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1659316644613</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat: Create atomic component for hobbies">
+      <created>1659316722951</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1659316722951</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,7 +211,12 @@
     <MESSAGE value="refactor: tailwind colors" />
     <MESSAGE value="feat: Create component counters" />
     <MESSAGE value="feat: Create component experiences" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Create component experiences" />
+    <MESSAGE value="feat: Create component atomic certifications" />
+    <MESSAGE value="feat: Create component certifications" />
+    <MESSAGE value="styles: Hobbies images" />
+    <MESSAGE value="styles: Change images the directory" />
+    <MESSAGE value="feat: Create atomic component for hobbies" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Create atomic component for hobbies" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
