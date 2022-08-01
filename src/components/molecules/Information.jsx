@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Information = ({ data }) => (
-  <div className='art-table p-15-15'>
+  <div className='art-table pt-5 pb-5'>
     <ul>
       <li>
         <h6>Ubicación:</h6>

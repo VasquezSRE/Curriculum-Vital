@@ -4,7 +4,7 @@ import photo from 'assets/images/photo.png';
 
 function Slider() {
   return (
-    <div className='container mx-auto sm:px-4 max-w-full mx-auto sm:px-4'>
+    <div className='mx-auto sm:px-4 max-w-full mx-auto sm:px-4'>
       <div className='flex flex-wrap  p-60-0 p-lg-30-0 p-md-15-0'>
         <div className='lg:w-full pr-4 pl-4'>
           <div

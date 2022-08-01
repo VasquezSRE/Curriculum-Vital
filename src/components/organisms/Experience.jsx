@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Experience = ({ data }) => (
-  <div className='container mx-auto sm:px-4 max-w-full mx-auto sm:px-4'>
+  <div className='mx-auto sm:px-4 max-w-full mx-auto sm:px-4'>
     <div className='flex flex-wrap '>
       <div className='lg:w-full pr-4 pl-4'>
         <div className='art-section-title'>
@@ -12,11 +12,14 @@ const Experience = ({ data }) => (
       </div>
       {data &&
         data.experience.map((item) => (
-          <div className='lg:w-1/3 pr-4 pl-4 md:w-1/2 pr-4 pl-4'>
+          <div
+            key={item.role}
+            className='lg:w-1/3 pr-4 pl-4 md:w-1/2 pr-4 pl-4'
+          >
             <div className='art-a art-service-icon-box'>
               <div className='art-service-ib-content'>
-                <h5 className='mb-15'>{item.role}</h5>
-                <div className='mb-15'>{item.description}</div>
+                <h5 className='mb-4'>{item.role}</h5>
+                <div className='mb-4'>{item.description}</div>
                 <div className='art-buttons-frame'>
                   <a
                     href='contact.html'

@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="268ad0b6-93c0-4bcb-8a99-5e1f407c3575" name="Changes" comment="feat: Create atomic component for hobbies">
-      <change afterPath="$PROJECT_DIR$/src/components/organisms/Hobbies.jsx" afterDir="false" />
+    <list default="true" id="268ad0b6-93c0-4bcb-8a99-5e1f407c3575" name="Changes" comment="fix: Add title component certifications">
+      <change afterPath="$PROJECT_DIR$/src/components/organisms/Footer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/content.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/atoms/hobbies.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/hobbies.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/molecules/Counters.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/Counters.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/organisms/Certifications.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/Certifications.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/organisms/Experience.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/Experience.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/organisms/Hobbies.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/Hobbies.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/organisms/Slider.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/Slider.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/home.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/home.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.jsx" afterDir="false" />
     </list>
@@ -26,6 +29,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="release/0.0.2" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsBowerSettings">
@@ -42,8 +50,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="CSS" />
     <property name="format.on.save" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/organisms" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/icons" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -58,11 +67,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/icons" />
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/components/organisms" />
       <recent name="$PROJECT_DIR$/src/components/atoms" />
       <recent name="$PROJECT_DIR$/src/assets/images/certifications" />
-      <recent name="$PROJECT_DIR$/src/assets/icons" />
-      <recent name="$PROJECT_DIR$/src/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/assets/images/hobbies" />
@@ -185,7 +194,42 @@
       <option name="project" value="LOCAL" />
       <updated>1659316722951</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="feat: Change favicon and title">
+      <created>1659325512080</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1659325512080</updated>
+    </task>
+    <task id="LOCAL-00014" summary="fix: Fix Each child in a list should have a unique &quot;key&quot; prop.">
+      <created>1659326850497</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1659326850497</updated>
+    </task>
+    <task id="LOCAL-00015" summary="refactor: Clear directories structure">
+      <created>1659327305700</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1659327305700</updated>
+    </task>
+    <task id="LOCAL-00016" summary="refactor: Clear comments">
+      <created>1659327430428</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1659327430429</updated>
+    </task>
+    <task id="LOCAL-00017" summary="fix: Add title component certifications">
+      <created>1659355890473</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1659355890473</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,7 +260,13 @@
     <MESSAGE value="styles: Hobbies images" />
     <MESSAGE value="styles: Change images the directory" />
     <MESSAGE value="feat: Create atomic component for hobbies" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Create atomic component for hobbies" />
+    <MESSAGE value="feat: Change favicon and title" />
+    <MESSAGE value="fix: Fix Each child in a list should have a unique &quot;key&quot; prop." />
+    <MESSAGE value="refactor: Clear directories structure" />
+    <MESSAGE value="refactor: Clear comments" />
+    <MESSAGE value="fix: fixed scroll" />
+    <MESSAGE value="fix: Add title component certifications" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: Add title component certifications" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
