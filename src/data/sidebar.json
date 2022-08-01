@@ -36,5 +36,17 @@
     {
       "title": "Contenedores"
     }
+  ],
+  "socials": [
+    {
+      "title": "LinkedIn",
+      "icon": "IN",
+      "link": "https://www.linkedin.com/in/avasquezsre/"
+    },
+    {
+      "title": "GitHub",
+      "icon": "GITHUB",
+      "link": "https://github.com/VasquezSRE"
+    }
   ]
 }

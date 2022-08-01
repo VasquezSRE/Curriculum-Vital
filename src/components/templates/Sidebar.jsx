@@ -3,6 +3,7 @@ import Avatar from 'components/molecules/Avatar';
 import Information from 'components/molecules/Information';
 import Idioms from 'components/molecules/Idioms';
 import Skills from 'components/molecules/Skills';
+import SocialNetworks from 'components/molecules/SocialNetworks';
 import Button from 'components/atoms/button';
 import resumen from 'data/sidebar.json';
 
@@ -29,27 +30,7 @@ const Sidebar = () => (
           </div>
         </div>
       </div>
-      <div className='art-ls-social'>
-        <a href='#.' target='_blank'>
-          <i className='fab fa-linkedin-in' />
-        </a>
-
-        <a href='#.' target='_blank'>
-          <i className='fab fa-dribbble' />
-        </a>
-
-        <a href='#.' target='_blank'>
-          <i className='fab fa-behance' />
-        </a>
-
-        <a href='#.' target='_blank'>
-          <i className='fab fa-github' />
-        </a>
-
-        <a href='#.' target='_blank'>
-          <i className='fab fa-twitter' />
-        </a>
-      </div>
+      <SocialNetworks data={resumen.socials} />
     </div>
   </div>
 );
