@@ -3,7 +3,7 @@ import React from 'react';
 const Idioms = ({ data }) => (
   <div className='art-lang-skills p-30-15'>
     {data.map(({ title, value }) => (
-      <div className='art-lang-skills-item'>
+      <div key={title} className='art-lang-skills-item'>
         <div
           id='circleprog'
           className='art-cirkle-progress'
@@ -27,8 +27,8 @@ const Idioms = ({ data }) => (
               strokeWidth='7'
               fillOpacity='0'
               style={{
-                'stroke-dasharray': '292.273, 292.273',
-                'stroke-dashoffset': '87.682',
+                strokeDasharray: '292.273, 292.273',
+                strokeDashoffset: '87.682',
               }}
             />
           </svg>

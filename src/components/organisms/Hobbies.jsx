@@ -14,7 +14,7 @@ const Hobbies = ({ data }) => (
       <div className='lg:w-full pr-4 pl-4'>
         <div className='swiper-slide swiper-slide-active mr-30'>
           {data.hobbies.map(({ title, description, image }) => (
-            <div className='lg:w-1/2 pr-4 pl-4 md:w-1/2 pr-4 pl-4'>
+            <div key={title} className='lg:w-1/2 pr-4 pl-4 md:w-1/2 pr-4 pl-4'>
               <div className='art-a art-testimonial'>
                 <div className='testimonial-body'>
                   <img
