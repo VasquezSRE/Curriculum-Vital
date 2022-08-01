@@ -4,12 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="268ad0b6-93c0-4bcb-8a99-5e1f407c3575" name="Changes" comment="feat: Create atomic component for hobbies">
-      <change afterPath="$PROJECT_DIR$/src/components/organisms/Hobbies.jsx" afterDir="false" />
+    <list default="true" id="268ad0b6-93c0-4bcb-8a99-5e1f407c3575" name="Changes" comment="refactor: Clear comments">
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/ellipsis-v-solid.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/content.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/atoms/hobbies.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/hobbies.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/home.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/home.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/layout.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/markup.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/markup.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/molecules/Counters.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/Counters.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/molecules/Idioms.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/Idioms.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/molecules/Information.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/Information.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/molecules/Skills.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/Skills.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/organisms/Experience.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/Experience.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/templates/Content.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/templates/Content.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/templates/Layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/templates/Layout.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/templates/Sidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/templates/Sidebar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/sidebar.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/sidebar.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +38,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="release/0.0.2" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsBowerSettings">
@@ -42,8 +59,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="CSS" />
     <property name="format.on.save" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/organisms" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/icons" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -58,11 +76,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/icons" />
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/components/organisms" />
       <recent name="$PROJECT_DIR$/src/components/atoms" />
       <recent name="$PROJECT_DIR$/src/assets/images/certifications" />
-      <recent name="$PROJECT_DIR$/src/assets/icons" />
-      <recent name="$PROJECT_DIR$/src/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/assets/images/hobbies" />
@@ -185,7 +203,35 @@
       <option name="project" value="LOCAL" />
       <updated>1659316722951</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="feat: Change favicon and title">
+      <created>1659325512080</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1659325512080</updated>
+    </task>
+    <task id="LOCAL-00014" summary="fix: Fix Each child in a list should have a unique &quot;key&quot; prop.">
+      <created>1659326850497</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1659326850497</updated>
+    </task>
+    <task id="LOCAL-00015" summary="refactor: Clear directories structure">
+      <created>1659327305700</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1659327305700</updated>
+    </task>
+    <task id="LOCAL-00016" summary="refactor: Clear comments">
+      <created>1659327430428</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1659327430429</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,7 +262,11 @@
     <MESSAGE value="styles: Hobbies images" />
     <MESSAGE value="styles: Change images the directory" />
     <MESSAGE value="feat: Create atomic component for hobbies" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Create atomic component for hobbies" />
+    <MESSAGE value="feat: Change favicon and title" />
+    <MESSAGE value="fix: Fix Each child in a list should have a unique &quot;key&quot; prop." />
+    <MESSAGE value="refactor: Clear directories structure" />
+    <MESSAGE value="refactor: Clear comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: Clear comments" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

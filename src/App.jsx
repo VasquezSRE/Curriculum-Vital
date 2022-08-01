@@ -6,14 +6,12 @@ import Home from 'pages/Home';
 
 function App() {
   return (
-    <div className='App'>
-      <Layout>
-        <Sidebar />
-        <Content>
-          <Home />
-        </Content>
-      </Layout>
-    </div>
+    <Layout>
+      <Sidebar />
+      <Content>
+        <Home />
+      </Content>
+    </Layout>
   );
 }
 
