@@ -4,25 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="268ad0b6-93c0-4bcb-8a99-5e1f407c3575" name="Changes" comment="refactor: Clear comments">
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/ellipsis-v-solid.svg" afterDir="false" />
+    <list default="true" id="268ad0b6-93c0-4bcb-8a99-5e1f407c3575" name="Changes" comment="fix: fixed scroll">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/layout.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/markup.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/markup.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/molecules/Counters.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/Counters.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/molecules/Idioms.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/Idioms.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/molecules/Information.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/Information.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/molecules/Skills.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/Skills.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/organisms/Experience.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/Experience.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/templates/Content.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/templates/Content.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/templates/Layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/templates/Layout.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/templates/Sidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/templates/Sidebar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/sidebar.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/sidebar.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/organisms/Certifications.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/Certifications.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -266,7 +250,8 @@
     <MESSAGE value="fix: Fix Each child in a list should have a unique &quot;key&quot; prop." />
     <MESSAGE value="refactor: Clear directories structure" />
     <MESSAGE value="refactor: Clear comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: Clear comments" />
+    <MESSAGE value="fix: fixed scroll" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: fixed scroll" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
