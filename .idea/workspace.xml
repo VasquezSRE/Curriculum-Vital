@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="268ad0b6-93c0-4bcb-8a99-5e1f407c3575" name="Changes" comment="fix: Grid certifications">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/organisms/Hobbies.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/Hobbies.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/content.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/organisms/Experience.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/Experience.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,10 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="release/0.0.2" />
+        <entry key="$PROJECT_DIR$" value="feature/education_component" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="JsBowerSettings">
     <bower-package value="" />
