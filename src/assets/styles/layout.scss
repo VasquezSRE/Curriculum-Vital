@@ -2,18 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-.contact-icon {
-  @apply w-4 h-4 mr-4;
-}
+@import 'config';
+@import 'common';
+@import 'markup';
+@import 'info-bar';
+@import 'menu-bar';
+@import 'content';
+@import 'burger';
+@import 'transitions';
 
-.section-header {
-  @apply text-primary-900 text-xl border-l-4  pl-3 font-bold;
-}
 
-.item-header {
-  @apply text-xl font-bold tracking-tight leading-relaxed;
-}
-
-.item-sub {
-  @apply tracking-wide text-sm;
+.will-change-transform {
+  will-change: transform;
 }
