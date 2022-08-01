@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="268ad0b6-93c0-4bcb-8a99-5e1f407c3575" name="Changes" comment="fix: Grid certifications">
+    <list default="true" id="268ad0b6-93c0-4bcb-8a99-5e1f407c3575" name="Changes" comment="fix: Fixed grid experiences and slider photo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/content.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/organisms/Experience.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/Experience.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/templates/Sidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/templates/Sidebar.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -259,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659358466616</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="fix: Fixed grid experiences and slider photo">
+      <created>1659361183745</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1659361183745</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,7 +306,8 @@
     <MESSAGE value="feat: Create Footer Component" />
     <MESSAGE value="fix: CFix minnors" />
     <MESSAGE value="fix: Grid certifications" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: Grid certifications" />
+    <MESSAGE value="fix: Fixed grid experiences and slider photo" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: Fixed grid experiences and slider photo" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
